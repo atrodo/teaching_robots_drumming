@@ -1,8 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "Teaching Robots how to Drum"
 ---
 
-# Introduction
-
-...
