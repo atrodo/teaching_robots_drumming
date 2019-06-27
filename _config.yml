@@ -3,3 +3,4 @@ description: "Experiments in making music by atrodo"
 show_downloads: false
 theme: jekyll-theme-midnight
 baseurl: teaching_robots_drumming/
+google_analytics: UA-142849904-1
