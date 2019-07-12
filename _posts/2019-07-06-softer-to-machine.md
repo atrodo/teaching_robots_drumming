@@ -17,7 +17,7 @@ something new about SQLite I did not know before; SQLite cannot add columns with
 a dynamic default value. If you try to add a column whose default is
 "CURRENT_TIME", you're presented with this error:
 
-  Cannot add a column with non-constant default
+> Cannot add a column with non-constant default
 
 A quick search finds the [Stack Overflow
 answer](https://stackoverflow.com/q/11631390) that helped me understand that
