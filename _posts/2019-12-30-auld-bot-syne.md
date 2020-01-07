@@ -18,12 +18,12 @@ In the past year, I accomplished a lot of things:
 * Generated very rudimentary drum beats with Neural Networks
 * Implemented a genetic algorithm to create new Neural Network variants
 * Figured out how to write fitness functions to test music
-* Figured out how not to write [fitness functions]({{ site.baseurl }}{% post_url 2019-08-30-fitness-your-veins})
+* Figured out how not to write [fitness functions]({{ site.baseurl }}{% post_url 2019-08-30-fitness-your-veins %})
 * Connected the Neural Network up to generate a sound file
-* Learned a lot about what Neural Networks [can]({{ site.baseurl }}{% post_url 2019-06-06-against-bot-troubles}) and [cannot do](2019-05-23-some-kind-robot})
-* Created an [IRC bot]({{ site.baseurl }}{% post_url 2019-05-22-robotman}) to aid in managing the various data types
-* Made a [streaming process]({{ site.baseurl }}{% post_url 2019-06-25-robot-i-did-it-again}) to reduce the feedback loop
-* Discovered how DFT and FFT work, [in theory]({{ site.baseurl }}{% post_url 2019-12-16-seed-to-bot}) and [in practice]({{ site.baseurl }}{% post_url 2019-12-17-botting-dancing-unicorns})
+* Learned a lot about what Neural Networks [can]({{ site.baseurl }}{% post_url 2019-06-06-against-bot-troubles %}) and [cannot do](2019-05-23-some-kind-robot %})
+* Created an [IRC bot]({{ site.baseurl }}{% post_url 2019-05-22-robotman %}) to aid in managing the various data types
+* Made a [streaming process]({{ site.baseurl }}{% post_url 2019-06-25-robot-i-did-it-again %}) to reduce the feedback loop
+* Discovered how DFT and FFT work, [in theory]({{ site.baseurl }}{% post_url 2019-12-16-seed-to-bot %}) and [in practice]({{ site.baseurl }}{% post_url 2019-12-17-botting-dancing-unicorns %})
 
 Not the least of all of this was the four month stint working on `FFT` and
 Melody Extraction. A noticeable portion of those four months was just in the two
