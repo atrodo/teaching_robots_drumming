@@ -5,11 +5,11 @@ song: "Wavy Gravy by Mayfair Laundry"
 ---
 
 After writing the
-[previous]({{ site.baseurl }}{% post_url 2019-12-16-seed-to-bot.md %})
-[two]({{ site.baseurl }}{% post_url 2019-12-17-botting-dancing-unicorns %}) posts,
-I wanted to take a moment to share an experience I had in hopes that if someone
-else experiences it as well, this can help them. I had replicated Cooley-Tukey
-in code and was getting what I knew were accurate results because
+[previous]({{ site.baseurl }}{% post_url 2019-12-16-seed-to-bot %})
+[two]({{ site.baseurl }}{% post_url 2019-12-17-botting-dancing-unicorns %})
+posts, I wanted to take a moment to share an experience I had in hopes that if
+someone else experiences it as well, this can help them. I had replicated
+Cooley-Tukey in code and was getting what I knew were accurate results because
 [FFTW](http://www.fftw.org/) was producing the save results.
 
 ![Interesting checker pattern]({{ "/assets/2019-12-18-wavy-checker/checker.png" | relative_url }})
