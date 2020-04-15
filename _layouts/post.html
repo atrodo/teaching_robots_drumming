@@ -3,13 +3,13 @@ layout: default
 ---
 
 <article>
-  <h1><a href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>></h1>
+  <h1><a href="{{ page.url | relative_url }}">{{ page.title | escape }}</a></h1>
   {% if page.alt_title %}
-  <h3><small>or</small><a href="{{ page.url | relative_url }}">{{ page.alt_title | escape }}</a>></h3>
+  <h3><small> or </small><a href="{{ page.url | relative_url }}">{{ page.alt_title | escape }}</a></h3>
   {% endif %}
   <h4>{{ page.date | date_to_string }} - {% if page.author %} {{ page.author }} {% else %} atrodo {% endif %}
   {% if page.song %}
-  <small> - Song: {{ page.song | escape }}</small>
+  - Song: {{ page.song | escape }}
   {% endif %}
   </h4>
   {{ content }}
