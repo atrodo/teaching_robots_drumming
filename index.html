@@ -14,6 +14,7 @@ layout: default
   {% endif %}
   </h4>
   {{ post.excerpt }}
+  <small><a href="{{ post.url | relative_url }}">Continue...</a></small>
 </article>
   {% unless forloop.last %}
   <hr>
