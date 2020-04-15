@@ -4,3 +4,6 @@ show_downloads: false
 theme: jekyll-theme-midnight
 baseurl:
 google_analytics: UA-142849904-1
+url: "https://atrodo.github.io"
+plugins:
+  - jekyll-sitemap
