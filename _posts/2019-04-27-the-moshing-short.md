@@ -1,6 +1,7 @@
 ---
-layout: default
-title:  "The Moshing Short"
+layout: post
+title:  "Making short codes out of UUIDs"
+alt_title: "The Moshing Short"
 song: "The Moshing Floor by Steve Taylor"
 ---
 
