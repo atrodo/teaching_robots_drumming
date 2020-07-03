@@ -1,6 +1,7 @@
 ---
-layout: default
-title:  "Rhubarponsibilty"
+layout: post
+title: "The Design of a Manual Neural Network Fitness Function"
+alt_title:  "Rhubarponsibilty"
 song: "Responsibility by MxPx"
 ---
 

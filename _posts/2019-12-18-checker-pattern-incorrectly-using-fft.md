@@ -1,12 +1,13 @@
 ---
-layout: default
-title:  "Wavy Gravy"
+layout: post
+title: "Creating a Checker Pattern by Incorrectly Using FFT"
+alt_title: "Wavy Gravy"
 song: "Wavy Gravy by Mayfair Laundry"
 ---
 
 After writing the
-[previous]({{ site.baseurl }}{% post_url 2019-12-16-seed-to-bot %})
-[two]({{ site.baseurl }}{% post_url 2019-12-17-botting-dancing-unicorns %})
+[previous]({{ site.baseurl }}{% post_url 2019-12-16-explaining-fast-fourier-transformations-the-theory %})
+[two]({{ site.baseurl }}{% post_url 2019-12-17-explaining-fast-fourier-transformations-the-code %})
 posts, I wanted to take a moment to share an experience I had in hopes that if
 someone else experiences it as well, this can help them. I had replicated
 Cooley-Tukey in code and was getting what I knew were accurate results because

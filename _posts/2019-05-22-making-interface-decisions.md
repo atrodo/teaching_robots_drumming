@@ -1,6 +1,7 @@
 ---
-layout: default
-title:  "Robotman"
+layout: post
+title: "Making Interface Decisions"
+alt_title:  "Robotman"
 song: "Bannerman by Steve Taylor"
 ---
 

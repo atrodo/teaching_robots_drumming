@@ -1,6 +1,7 @@
 ---
-layout: default
-title:  "The Sympathy Robot"
+layout: post
+title: "Making Interface Plans"
+alt_title:  "The Sympathy Robot"
 song: "The Sympathy Vote by Steve Taylor & the Perfect Foil"
 ---
 

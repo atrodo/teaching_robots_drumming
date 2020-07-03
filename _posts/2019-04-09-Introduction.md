@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title:  "Teaching Robots how to Drum"
 ---
 

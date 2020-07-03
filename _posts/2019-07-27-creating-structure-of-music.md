@@ -1,6 +1,7 @@
 ---
-layout: default
-title:  "The Fight Melody"
+layout: post
+title: "Creating the Structure of Music"
+alt_title:  "The Fight Melody"
 song: "The Fight Song by Sanctus Real"
 ---
 

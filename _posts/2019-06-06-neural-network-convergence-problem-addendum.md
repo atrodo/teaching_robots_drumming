@@ -1,6 +1,7 @@
 ---
-layout: default
-title:  "Against a bot of Troubles"
+layout: post
+title: "The Neural Network Convergence Problem Addendum"
+alt_title:  "Against a Bot of Troubles"
 song: "Against a Sea of Troubles by Five Iron Frenzy"
 ---
 

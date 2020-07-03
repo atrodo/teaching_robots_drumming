@@ -1,6 +1,7 @@
 ---
-layout: default
-title:  "Where Will Rhubarb Go"
+layout: post
+title: "Improving Melody Extraction"
+alt_title:  "Where Will Rhubarb Go"
 song: "Where Will They Go by Sanctus Real"
 ---
 
@@ -76,7 +77,7 @@ extract over each sub-beat. An array is maintained of each note that contributes
 to the final note, and when the code decides to end the note, it chooses the
 note that was the best note the most times over that period. For example, this
 means if a note starts at A6, bounces between A5 and A6 for the first couple
-sub-beats but settles on A5 for the remainder of the period, the code will not
+sub-beats but settles on A5 for the remainder of the period, the code will
 chose A5 instead of discarding the first part of the note as every note is
 required to be at least 2 sub-beats long.
 

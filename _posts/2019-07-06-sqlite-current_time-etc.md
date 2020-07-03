@@ -1,6 +1,7 @@
 ---
-layout: default
-title:  "Softer to Machine"
+layout: post
+title: "SQLite CURRENT_TIME and Other Code House Keeping"
+alt_title:  "Softer to Machine"
 song: "Softer to Me by Relient K"
 ---
 
@@ -10,19 +11,19 @@ been meaning to do to try and improve the general health of the code base. None
 of the issues were particularly important, but it provided a nice pause before
 working on the next thing.
 
-First I added create and modify time column to every table that is reasonable
+First I added a create and modify time column to every table that is reasonable
 for. I find these very handy long term, but forgot about them initially. Once I
 did remember to add it, I tried to quickly add on. However, I discovered
 something new about SQLite I did not know before; SQLite cannot add columns with
 a dynamic default value. If you try to add a column whose default is
-"CURRENT_TIME", you're presented with this error:
+`CURRENT_TIME`, you're presented with this error:
 
 > Cannot add a column with non-constant default
 
 A quick search finds the [Stack Overflow
 answer](https://stackoverflow.com/q/11631390) that helped me understand that
 SQLite doesn't actually alter the table until the row is either read or
-modified; I'm unclear which. But that means that "CURRENT_TIME" can't be the
+modified; I'm unclear which. But that means that `CURRENT_TIME` can't be the
 default value since it won't actually be the time of the alter.
 
 At that point, I left the create and modify time columns off knowing I'd have to
@@ -31,11 +32,11 @@ now, I decided that it was a good time to work on adding those columns.
 Initially, I thought all I had to do was:
 
 1. Add the columns as nullable (it is not-null)
-2. Update every row to "CURRENT_TIME", the value
+2. Update every row to `CURRENT_TIME`, the value
 3. Alter the column to make it not-null again
 
-I had it in my head that it couldn't use "CURRENT_TIME" on a not-null column.
-That, however, is incorrect. It can't add a default "CURRENT_TIME" at all, which
+I had it in my head that it couldn't use `CURRENT_TIME` on a not-null column.
+That, however, is incorrect. It can't add a default `CURRENT_TIME` at all, which
 makes perfect sense in retrospect. A nullable field doesn't mean that null is an
 acceptable default after the alter table, which for some reason I thought it was
 an that sequence would be able to create the column as null.

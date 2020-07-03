@@ -1,6 +1,7 @@
 ---
-layout: default
-title:  "Chaotic Rhubarb"
+layout: post
+title: "That Time Random Numbers Caused More Problems Than They Solve"
+alt_title:  "Chaotic Rhubarb"
 song: "Chaotic Resolve by Plumb"
 ---
 

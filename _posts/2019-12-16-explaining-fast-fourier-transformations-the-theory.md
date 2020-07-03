@@ -1,6 +1,7 @@
 ---
-layout: default
-title:  "Seed to Bot"
+layout: post
+title: "Explaining Fast Fourier Transformations, Part 1; The Theory"
+alt_title:  "Seed to Bot"
 song: "Seed to Sow by Michael W. Smith"
 ---
 

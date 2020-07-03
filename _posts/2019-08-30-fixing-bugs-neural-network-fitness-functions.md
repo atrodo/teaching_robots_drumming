@@ -1,6 +1,7 @@
 ---
-layout: default
-title:  "Fitness Your Veins"
+layout: post
+title: "Fixing Bugs in Neural Network Fitness Functions"
+alt_title: "Fitness Your Veins"
 song: "Into Your Veins by Five Iron Frenzy"
 ---
 
@@ -13,7 +14,7 @@ discover the issues.
 
 This bug hunting process has been a good reminder that having a good
 understanding of the problem space is important. The neural networks and fitness
-functions are not magic. They require work, work on my part, knowing how to
+functions are not magic, they require work. Work on my part, knowing how to
 massaging the input data and how to evaluate the results to get good results.
 
 The first issue I found was in the fitness function I use to make sure band

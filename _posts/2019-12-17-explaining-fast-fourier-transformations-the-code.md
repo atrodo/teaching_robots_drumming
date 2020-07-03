@@ -1,6 +1,7 @@
 ---
-layout: default
-title:  "Botting Dancing Unicorns"
+layout: post
+title: "Explaining Fast Fourier Transformations, Part 2; The Code"
+alt_title:  "Botting Dancing Unicorns"
 song: "Battle Dancing Unicorns by Five Iron Frenzy"
 ---
 

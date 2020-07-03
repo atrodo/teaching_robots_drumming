@@ -1,6 +1,7 @@
 ---
-layout: default
-title:  "Robot I Did It Again"
+layout: post
+title: "Experiences with Using libuv and eventfd"
+alt_title:  "Robot I Did It Again"
 song: "Hoopes I Did It Again by Relient K"
 ---
 
@@ -46,7 +47,7 @@ cross. I wasn't very aware of what was going on, and I knew that things weren't
 working well with the event loop. But what made me move onto a new system was
 that my sqlite transactions were causing major issues. I have the code setup
 such that every command that's processed is done in a transaction. The fork with
-sqlite was not likeing that, so I needed to move the fork out of the
+sqlite was not liking that, so I needed to move the fork out of the
 transaction.
 
 The third attempt was built using a system that would drop down to the parent

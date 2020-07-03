@@ -1,6 +1,7 @@
 ---
-layout: default
-title:  "Some Kind of Robot"
+layout: post
+title: "The Neural Network Convergence Problem"
+alt_title:  "Some Kind of Robot"
 song: "Some Kind of Zombie by Audio Adrenaline"
 ---
 
@@ -61,7 +62,7 @@ think that neural networks are really just nice mathematical models that do a
 good job of learning feature detection. They cannot divine information that
 wasn't there, which is why giving it more and better modeled data is vital to a
 successful neural network. The more magical things that they are doing, like
-with convolutional neural network, are not sophisticated because because of the
+with convolutional neural network, are not sophisticated because of the
 neural network, but because of the domain knowledge and research that has gone
 into right way to prepare data for the neural network to extract the desired
 information.
