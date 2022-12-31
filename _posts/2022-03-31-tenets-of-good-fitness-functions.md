@@ -29,6 +29,7 @@ Networks I'm using.
   * Sometimes it's the test input that's a problem
   * Given the chance, fitness functions will find the smallest possible result
   * Requiring a minimum attempt count is better than scoring poor attempts low
+  * Fitness functions should be given a linear funnel to obtain values (New, added during [a later revelation]({{ site.baseurl }}{% post_url 2022-12-30-teaching-robots-how-to-drum-2022 %})
 
 As an example, I was attempting to create a new set of fitness functions around
 a songs volume or loudness level. The fitness function was suppose to take an
