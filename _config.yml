@@ -3,7 +3,7 @@ description: "Experiments in making music by atrodo"
 show_downloads: false
 theme: jekyll-theme-midnight
 baseurl:
-google_analytics: UA-142849904-1
+google_analytics: G-CEN8CCMRWE
 url: "https://atrodo.github.io"
 plugins:
   - jekyll-sitemap
